@@ -58,9 +58,10 @@
                         "searchCriteria": "IsInstalled=0",
                         "filters": [
                             "exclude:$_.Title -like '*Preview*'",
+                            "exclude:$_.Title -like '*KB5040442*'",
                             "include:$true"
                                     ],
-                        "updateLimit": 40
+                        "updateLimit": 25
                     }
             ],
             "distribute": 
